@@ -1,2 +1,2 @@
-# ds514_project
+# EduRisk Early-Warning System (EWS)
 ระบบสัญญาณเตือนภัยความเสี่ยงทางการเรียนของนักศึกษา
