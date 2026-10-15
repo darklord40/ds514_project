@@ -17,3 +17,22 @@
 - กลุ่มนักเรียนที่เสี่ยงสอบตก (at_risk = 1) มีค่าเฉลี่ยอัตราการส่งการบ้านและคะแนนสอบย่อย ต่ำกว่ากลุ่มปกติอย่างมีนัยสำคัญหรือไม่
 ### สมมติฐานการวิจัย (Research Hypotheses)
 คะแนนก่อนเรียน (Pre-test), อัตราส่วนการส่งการบ้าน (Homework Rate), การผ่านคอร์สเตรียมสอบ, ระดับการศึกษาของผู้ปกครอง, ประเภทอาหารกลางวัน และเพศ เป็นปัจจัยที่ส่งผลต่อความเสี่ยงทางการเรียน (at_risk) และผลสัมฤทธิ์ทางการเรียนของนักศึกษา
+# 4. แหล่งที่มาของข้อมูล (Data Source)
+- Dataset: Students Performance in Exams dataset
+- Source: Kaggle
+- ข้อมูลถูกจัดเตรียมสำหรับงาน Classification
+# 5. รายละเอียดข้อมูล (Dataset Description)
+### ตัวแปรเป้าหมาย (Target Variable)
+at_risk
+- 0 = ไม่มีความเสี่ยงที่จะสอบตก
+- 1 = มีความเสี่ยงที่จะสอบตก
+### ตัวแปรอิสระ (Features)
+### Ordinal Variables
+- parental level of education
+### Numerical Variables
+- pre_test
+- homework_rate
+### Categorical Variables
+- gender
+- lunch
+- test preparation course
